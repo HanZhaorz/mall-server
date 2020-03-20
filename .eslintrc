@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "eslint-config-egg/typescript",
+    "prettier/@typescript-eslint", 
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}
